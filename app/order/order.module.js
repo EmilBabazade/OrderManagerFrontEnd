@@ -1,0 +1,1 @@
+angular.module('order', ['core.user', 'core.order', 'core.vaqon'])

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="orderManager" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="./app.css" rel="stylesheet" >
+</head>
+<body>
+  
+  <div ng-view></div>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="lib/angular-messages/angular-messages.js"></script>
+  <script src="lib/angular-switch/src/switch.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="core/port/port.model.js"></script>
+  <script src="core/port/port.service.js"></script>
+  <script src="login/login.module.js"></script>
+  <script src="login/login.component.js"></script>
+  <script src="core/user/user.module.js"></script>
+  <script src="core/user/user.service.js"></script>
+  <script src="core/order/order.module.js"></script>
+  <script src="core/order/order.service.js"></script>
+  <script src="core/vaqon/vaqon.module.js"></script>
+  <script src="core/vaqon/vaqon.service.js"></script>
+  <script src="order/order.module.js"></script>
+  <script src="order/order.component.js"></script>
+</body>
+</html>

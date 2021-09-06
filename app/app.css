@@ -1,0 +1,101 @@
+/* app css stylesheet */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, body > .ng-scope {
+  width: 100%;
+  height: 100%;
+}
+
+.top, .order {
+  background-color: #fff;
+  box-shadow: 0px 1px 6px -2px #000000; 
+  z-index: 2;
+}
+
+.top > div > .navbar-brand {
+  color: #6C7278;
+}
+
+.pointer, .table-hover td{
+  cursor: pointer;
+}
+
+.borc {
+  font-size: x-large;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.borcContainer {
+  background-color: #0079A8;
+  padding: 0px 1.5%;
+}
+
+.borcText {
+  font-size: x-small;
+  color: #EAEAEA;
+}
+
+.content {
+  background-color: #FDFDFD;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.paid, .unpaid {
+  color: #FFFFFF;
+  border-radius: 13px;
+  padding: 5px 10px;
+}
+
+.paid {
+  background-color: #4FB153;
+}
+
+.unpaid {
+  background-color: #E10A0A;
+}
+
+.unpaid:active {
+  background-color: #e10a0a8a;
+}
+.md-scroll-mask { z-index: 2000; }
+.md-backdrop.md-dialog-backdrop { z-index: 2019; }
+.md-dialog-container {  z-index: 2020; }
+
+.hidden {
+  display: none;
+}
+
+.fileChooser {
+  background-color: #263439;
+  padding: 8px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.selector {
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+.delete {
+  color: #E10A0A;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 350px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}

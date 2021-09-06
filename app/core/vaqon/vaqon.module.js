@@ -1,0 +1,1 @@
+angular.module('core.vaqon', ['core.port'])
